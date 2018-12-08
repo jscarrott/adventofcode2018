@@ -3,7 +3,7 @@ use std::env;
 use std::fs;
 
 pub fn run() {
-    let input = fs::read_to_string("./InputFiles/Day1.txt")
+    let input = fs::read_to_string("./InputFiles/Day2.txt")
         .expect("Failed to read input")
         .split_whitespace()
         .map(|s| s.parse::<i32>().unwrap())
